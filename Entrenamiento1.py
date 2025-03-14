@@ -1,4 +1,6 @@
 print("Hola Bienvenido al sistema de compra") #Muestra la bienvenida al sistema de compra
+print(""                                     
+ "")
 producto = input("Ingresa el nombre del producto: ") #Pide el nombre del producto
 
 #Validacion de datos
@@ -42,10 +44,15 @@ costo_sin_descuento = precio * cantidad
 costo_con_descuento = costo_sin_descuento *(descuento/100)
 costo_total = costo_sin_descuento - costo_con_descuento
 
-
+print("""
+      """)
+print("""
+      """)
 #Mostrar la informacion de tu compra
 
-print("Informacion de tu compra:")
+print("Informacion de tu compra:") 
+print(""
+      "")
 print(f"Producto: {producto}")
 print(f"Precio unitario: ${precio:.2f}")
 print(f"Cantidad: {cantidad}")
